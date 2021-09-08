@@ -1,0 +1,48 @@
+.card{
+    width: 80%;
+    height: 70%;
+    background: grey;
+    border-radius: 10px;
+}
+
+.movie-card{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.movie-full-image{
+   width: 100%;
+   height: 50%;
+   padding-top: 10px;
+}
+
+.movie-details{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.full-image{
+    height: 90%;
+    border-radius: 10px;
+}
+.rating{
+    height: 40px;
+    width: 160px;
+    background: #2b282870;
+}
+
+.rating-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
